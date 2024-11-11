@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-size: 40px; /* Increase text size */
+        }
+
+        .choices button {
+            font-size: 100px; /* Increase button (icon) size */
+            width: 200px; /* Optional: set a width for the buttons */
+            height: 200px; /* Optional: set a height for the buttons */
+        }
+
+        .score p {
+            font-size: 24px; /* Increase score text size */
+        }
+
+        h1 {
+            font-size: 36px; /* Increase heading size */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="score">
+            <p>Computer: <span id="computerScore">0</span></p>
+            <p>You: <span id="userScore">0</span></p>
+        </div>
+        <div class="choices">
+            <button id="rock">✊</button>
+            <button id="paper">✋</button>
+            <button id="scissors">✌️</button>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
